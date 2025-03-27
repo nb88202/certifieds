@@ -1,7 +1,7 @@
 import docx
 #  set the file path to the text file of the report.  run this.  and then run_a_macro to set the pages. 
 
-with open(r"C:\Users\nsloss\Documents\certifieds\20230812", "r") as f:
+with open(r"C:\Users\administrator\Documents\certifieds\20230812", "r") as f:
 
         contents = f.readlines() #list containing all strings
         indexes = [contents.index(x) for x in set(contents)]
